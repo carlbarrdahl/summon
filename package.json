@@ -1,0 +1,32 @@
+{
+  "name": "summon",
+  "version": "0.0.1",
+  "description": "Decentrialized visual code editor",
+  "license": "MIT",
+  "repository": "carlbarrdahl/summon",
+  "author": {
+    "name": "Carl Barrdahl",
+    "email": "carlbarrdahl@gmail.com",
+    "url": "github.com/carlbarrdahl"
+  },
+  "keywords": [
+    "decentralized",
+    "dataflow",
+    "visual",
+    "editor",
+    "graph",
+    "tree"
+  ],
+  "scripts": {
+    "start": "babel-watch src",
+    "test": "jest"
+  },
+  "engine": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-watch": "^2.0.7",
+    "jest": "^20.0.4"
+  }
+}
